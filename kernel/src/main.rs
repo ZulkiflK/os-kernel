@@ -2,6 +2,7 @@
 #![no_main] // disable all Rust-level entry points
 
 use core::panic::PanicInfo;
+static HELLO: &[u8] = b"Hello World!";
 
 // this function is the entry point, since the linker looks for a function 
 // named `_start` by default 
